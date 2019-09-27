@@ -9,7 +9,7 @@ pyrogram 0.16.0
 pip3 install -U pyrogram tgcrypto
 ```  
 2. 从 [BotFather](https://t.me/BotFather) 申请得到您的 API Token ，从 [API Settings](https://my.telegram.org/apps) 申请得到您的 API Hash 和 API ID，并将它们填入 `config.json` 里。  
-3. 对于你不想在群内看到的频道，请按照`-100114514191`的格式填入`channels.json`的方括号内，每个频道用逗号隔开。  
+3. 对于你不想在群内看到的频道，请将它们的ID按照`-100114514191`的格式填入`channels.json`的方括号内，每个频道用逗号隔开。  
 4. 要在群组内启用删除功能，请先在 [BotFather](https://t.me/BotFather) 处关闭隐私模式  
 （步骤为:/mybots -> Bot Settings -> Group Privacy -> Turn off)
 
